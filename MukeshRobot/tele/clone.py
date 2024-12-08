@@ -10,9 +10,9 @@ from pymongo.errors import DuplicateKeyError
 from telethon import TelegramClient, errors
 from telethon.tl.types import MessageMediaPhoto
 
-from Emilia import API_HASH, API_ID, LOGGER, db, DEV_USERS, ORIGINAL_EVENT_LOOP, TOKEN, telethn
-from Emilia.custom_filter import register
-from Emilia.tele.backup import send
+from MukeshRobot import API_HASH, API_ID, LOGGER, db, DEV_USERS, ORIGINAL_EVENT_LOOP, TOKEN, telethn
+from MukeshRobot.custom_filter import register
+from MukeshRobot.tele.backup import send
 
 clone_db = db.clone
 timer = db.timer
@@ -81,8 +81,8 @@ class Config(object):
 
     MONGO_DB_URL = "mongodb://arsnnection=true&authSource=admin"
 
-    SUPPORT_CHAT = "SpiralTechDivision"
-    UPDATE_CHANNEL = "SpiralUpdates"
+    SUPPORT_CHAT = "LegitXSupport"
+    UPDATE_CHANNEL = "LegitXUpdates"
     START_PIC = "{}"
     DEV_USERS = [6040984893]
     TOKEN = "{}"
